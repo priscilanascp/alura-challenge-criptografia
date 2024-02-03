@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    font-family: Chakra Petch, sans-serif;
+    text-align: center;
+    background-color: #D8DFE8;
+  }
+
+
+.logo{
+ padding-top: 20px;
+ width:100px;
+ height: 48px;
+}
+
+img {
+    width: 70px;
+}
+
+.imagem{
+    width: 250px;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #0A3871;
+}
+
+p{
+    color: #0A3871;
+}
+
+a {
+  color: #9fa1a3;
+  text-decoration: none;
+  font-style: unset;
+}
+
+
+label {
+    
+    color: #0A3871;
+}
+
+  input {
+    padding: 8px;
+    margin-right: 700px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: none;
+    
+  }
+
+  #texto {
+    color: #0A3871;
+  }
+
+
+  #texto::placeholder {
+    color: #0A3871;
+   
+  }
+
+  button {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    
+  }
+
+
+
+  .btnCript {
+    width: 328px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #0A3871;
+    color: #ffffff;
+  }
+
+  .btnDescript {
+    width: 328px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+  }
+
+
+  #btnCopiar {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    color: #0A3871;
+    padding: 10px;
+    margin-top: 400px;
+
+    
+  }
+
+  .container {
+    margin-left: 25px;
+    float: left;
+    padding-top: 350px;
+    
+  }
+
+  #resultado-container {
+    color: #0A3871;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 300px;
+    height: 90vh;
+    border-radius: 32px;
+    top: 0;
+    margin-left: 1020px;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    
+  }
+
+
+ 
+
+footer {
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
