@@ -147,3 +147,152 @@ footer {
     bottom: 0;
     width: 100%;
   }
+
+
+/* Media queries para ajustar estilos em diferentes tamanhos de tela */
+
+@media screen and (max-width: 768px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    
+  }
+
+  input {
+      font-size: 16px;
+      margin-left: 100px;
+      margin-top:50px;
+  }
+  
+h1 {
+ margin-right: 200px;
+}
+
+  p {
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+button {
+  max-width: 250px;
+  margin-left: 20px;
+}
+
+
+
+  .container {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    max-width: 70%;
+    
+  }
+
+  #resultado-container{
+    top: 400px;
+    left: 170px;
+    margin: 0 auto;
+    max-width: 250px;
+    height: 300px;
+    position: absolute;
+   
+  }
+
+  
+
+  #btnCopiar {
+    margin: 150px auto;
+    
+  }
+
+  img {
+    max-width: 100px;
+  }
+
+  footer {
+   margin-left: -222px;
+   position: fixed;
+   
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  input {
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top:50px;
+}
+
+h1 {
+margin-left: 130px;
+top:40px;
+}
+
+p {
+  font-size: 12px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+#paragrafoResultado {
+  margin-left: 10px;
+  text-align: center;
+}
+
+button {
+max-width: 250px;
+margin-left: 70px;
+}
+
+
+
+.container {
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  max-width: 70%;
+  
+}
+
+#resultado-container{
+  top: 400px;
+  left: 95px;
+  margin: 0 auto;
+  max-width: 250px;
+  height: 300px;
+  position: absolute;
+ 
+}
+
+
+
+#btnCopiar {
+  margin: 150px auto;
+  
+}
+
+img {
+  max-width: 100px;
+}
+
+footer {
+ 
+ margin-left: -330px;
+ text-align: center;
+ 
+}
+
+
+}
